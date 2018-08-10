@@ -4,13 +4,13 @@ import com.cooksys.ftd.assignments.collections.hierarchy.Hierarchical;
 
 public interface Capitalist extends Hierarchical<Capitalist, FatCat> {
 
-    /**
-     * @return the name of the capitalist
-     */
-    String getName();
+	/**
+	 * @return the name of the capitalist
+	 */
+	String getName();
 
-    /**
-     * @return the salary of the capitalist, in dollars
-     */
-    int getSalary();
+	/**
+	 * @return the salary of the capitalist, in dollars
+	 */
+	int getSalary();
 }
